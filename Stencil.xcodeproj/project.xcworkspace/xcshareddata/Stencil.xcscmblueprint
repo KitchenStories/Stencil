@@ -1,0 +1,37 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "3DA8097D366B6AFDAEA91946C35253AA1EBC780B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D591987028BFCE350CA11D7DA7F1AE9C4373C207" : 9223372036854775807,
+    "E3472B155FC961329A2EA7BFAD3AFAE6EFBD63E5" : 9223372036854775807,
+    "3DA8097D366B6AFDAEA91946C35253AA1EBC780B" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0210C40E-A856-4D2B-A19C-F8E741FA4E84",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "D591987028BFCE350CA11D7DA7F1AE9C4373C207" : "Stencil\/.build\/checkouts\/Spectre--9185491864710013835\/",
+    "E3472B155FC961329A2EA7BFAD3AFAE6EFBD63E5" : "Stencil\/.build\/checkouts\/PathKit.git--1865447967743163058\/",
+    "3DA8097D366B6AFDAEA91946C35253AA1EBC780B" : "Stencil\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Stencil",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Stencil.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/KitchenStories\/Stencil",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "3DA8097D366B6AFDAEA91946C35253AA1EBC780B"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/justuskandzi\/Developer\/Stencil\/.build\/repositories\/Spectre--9185491864710013835",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "D591987028BFCE350CA11D7DA7F1AE9C4373C207"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "\/Users\/justuskandzi\/Developer\/Stencil\/.build\/repositories\/PathKit.git--1865447967743163058",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E3472B155FC961329A2EA7BFAD3AFAE6EFBD63E5"
+    }
+  ]
+}
