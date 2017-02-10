@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A0A039251E4E0EC90060468B /* PathKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A039241E4E0EC90060468B /* PathKit.swift */; };
+		A0A0392E1E4E0EE40060468B /* Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A039261E4E0EE40060468B /* Case.swift */; };
+		A0A0392F1E4E0EE40060468B /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A039271E4E0EE40060468B /* Context.swift */; };
+		A0A039301E4E0EE40060468B /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A039281E4E0EE40060468B /* Expectation.swift */; };
+		A0A039311E4E0EE40060468B /* Failure.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A039291E4E0EE40060468B /* Failure.swift */; };
+		A0A039321E4E0EE40060468B /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A0392A1E4E0EE40060468B /* Global.swift */; };
+		A0A039331E4E0EE40060468B /* GlobalContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A0392B1E4E0EE40060468B /* GlobalContext.swift */; };
+		A0A039341E4E0EE40060468B /* Reporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A0392C1E4E0EE40060468B /* Reporter.swift */; };
+		A0A039351E4E0EE40060468B /* Reporters.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A0392D1E4E0EE40060468B /* Reporters.swift */; };
 		OBJ_100 /* Variable.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* Variable.swift */; };
 		OBJ_102 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* Spectre.framework */; };
 		OBJ_103 /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* PathKit.framework */; };
@@ -29,15 +38,6 @@
 		OBJ_128 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* Spectre.framework */; };
 		OBJ_129 /* PathKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* PathKit.framework */; };
 		OBJ_130 /* Stencil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* Stencil.framework */; };
-		OBJ_63 /* Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* Case.swift */; };
-		OBJ_64 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* Context.swift */; };
-		OBJ_65 /* Expectation.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* Expectation.swift */; };
-		OBJ_66 /* Failure.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* Failure.swift */; };
-		OBJ_67 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* Global.swift */; };
-		OBJ_68 /* GlobalContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* GlobalContext.swift */; };
-		OBJ_69 /* Reporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* Reporter.swift */; };
-		OBJ_70 /* Reporters.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* Reporters.swift */; };
-		OBJ_77 /* PathKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* PathKit.swift */; };
 		OBJ_79 /* Spectre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* Spectre.framework */; };
 		OBJ_86 /* Context.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* Context.swift */; };
 		OBJ_87 /* Filters.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* Filters.swift */; };
@@ -101,6 +101,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A0A039241E4E0EC90060468B /* PathKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PathKit.swift; path = Sources/PathKit/PathKit.swift; sourceTree = SOURCE_ROOT; };
+		A0A039261E4E0EE40060468B /* Case.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Case.swift; path = Sources/Spectre/Case.swift; sourceTree = SOURCE_ROOT; };
+		A0A039271E4E0EE40060468B /* Context.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Context.swift; path = Sources/Spectre/Context.swift; sourceTree = SOURCE_ROOT; };
+		A0A039281E4E0EE40060468B /* Expectation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Expectation.swift; path = Sources/Spectre/Expectation.swift; sourceTree = SOURCE_ROOT; };
+		A0A039291E4E0EE40060468B /* Failure.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Failure.swift; path = Sources/Spectre/Failure.swift; sourceTree = SOURCE_ROOT; };
+		A0A0392A1E4E0EE40060468B /* Global.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Global.swift; path = Sources/Spectre/Global.swift; sourceTree = SOURCE_ROOT; };
+		A0A0392B1E4E0EE40060468B /* GlobalContext.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlobalContext.swift; path = Sources/Spectre/GlobalContext.swift; sourceTree = SOURCE_ROOT; };
+		A0A0392C1E4E0EE40060468B /* Reporter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reporter.swift; path = Sources/Spectre/Reporter.swift; sourceTree = SOURCE_ROOT; };
+		A0A0392D1E4E0EE40060468B /* Reporters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Reporters.swift; path = Sources/Spectre/Reporters.swift; sourceTree = SOURCE_ROOT; };
 		OBJ_10 /* ForTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForTag.swift; sourceTree = "<group>"; };
 		OBJ_11 /* IfTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IfTag.swift; sourceTree = "<group>"; };
 		OBJ_12 /* Include.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Include.swift; sourceTree = "<group>"; };
@@ -130,19 +139,10 @@
 		OBJ_38 /* TokenSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TokenSpec.swift; sourceTree = "<group>"; };
 		OBJ_39 /* VariableSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VariableSpec.swift; sourceTree = "<group>"; };
 		OBJ_40 /* XCTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTest.swift; sourceTree = "<group>"; };
-		OBJ_43 /* PathKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathKit.swift; sourceTree = "<group>"; };
-		OBJ_45 /* Case.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case.swift; sourceTree = "<group>"; };
-		OBJ_46 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
-		OBJ_47 /* Expectation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expectation.swift; sourceTree = "<group>"; };
-		OBJ_48 /* Failure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Failure.swift; sourceTree = "<group>"; };
-		OBJ_49 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
-		OBJ_50 /* GlobalContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalContext.swift; sourceTree = "<group>"; };
-		OBJ_51 /* Reporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reporter.swift; sourceTree = "<group>"; };
-		OBJ_52 /* Reporters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reporters.swift; sourceTree = "<group>"; };
 		OBJ_54 /* Spectre.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Spectre.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_55 /* PathKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PathKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_56 /* Stencil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Stencil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		OBJ_57 /* StencilTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = StencilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_57 /* StencilTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = StencilTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		OBJ_8 /* Context.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Context.swift; sourceTree = "<group>"; };
 		OBJ_9 /* Filters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filters.swift; sourceTree = "<group>"; };
@@ -230,7 +230,7 @@
 		OBJ_42 /* PathKit 0.7.1 */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_43 /* PathKit.swift */,
+				A0A039241E4E0EC90060468B /* PathKit.swift */,
 			);
 			name = "PathKit 0.7.1";
 			path = ".build/checkouts/PathKit.git--1865447967743163058/Sources";
@@ -239,14 +239,14 @@
 		OBJ_44 /* Spectre 0.7.2 */ = {
 			isa = PBXGroup;
 			children = (
-				OBJ_45 /* Case.swift */,
-				OBJ_46 /* Context.swift */,
-				OBJ_47 /* Expectation.swift */,
-				OBJ_48 /* Failure.swift */,
-				OBJ_49 /* Global.swift */,
-				OBJ_50 /* GlobalContext.swift */,
-				OBJ_51 /* Reporter.swift */,
-				OBJ_52 /* Reporters.swift */,
+				A0A039261E4E0EE40060468B /* Case.swift */,
+				A0A039271E4E0EE40060468B /* Context.swift */,
+				A0A039281E4E0EE40060468B /* Expectation.swift */,
+				A0A039291E4E0EE40060468B /* Failure.swift */,
+				A0A0392A1E4E0EE40060468B /* Global.swift */,
+				A0A0392B1E4E0EE40060468B /* GlobalContext.swift */,
+				A0A0392C1E4E0EE40060468B /* Reporter.swift */,
+				A0A0392D1E4E0EE40060468B /* Reporters.swift */,
 			);
 			name = "Spectre 0.7.2";
 			path = ".build/checkouts/Spectre--9185491864710013835/Sources";
@@ -377,6 +377,11 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					OBJ_72 = {
+						LastSwiftMigration = 0820;
+					};
+				};
 			};
 			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "Stencil" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -426,14 +431,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_63 /* Case.swift in Sources */,
-				OBJ_64 /* Context.swift in Sources */,
-				OBJ_65 /* Expectation.swift in Sources */,
-				OBJ_66 /* Failure.swift in Sources */,
-				OBJ_67 /* Global.swift in Sources */,
-				OBJ_68 /* GlobalContext.swift in Sources */,
-				OBJ_69 /* Reporter.swift in Sources */,
-				OBJ_70 /* Reporters.swift in Sources */,
+				A0A039351E4E0EE40060468B /* Reporters.swift in Sources */,
+				A0A039341E4E0EE40060468B /* Reporter.swift in Sources */,
+				A0A0392E1E4E0EE40060468B /* Case.swift in Sources */,
+				A0A039301E4E0EE40060468B /* Expectation.swift in Sources */,
+				A0A039311E4E0EE40060468B /* Failure.swift in Sources */,
+				A0A039321E4E0EE40060468B /* Global.swift in Sources */,
+				A0A0392F1E4E0EE40060468B /* Context.swift in Sources */,
+				A0A039331E4E0EE40060468B /* GlobalContext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,7 +446,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_77 /* PathKit.swift in Sources */,
+				A0A039251E4E0EC90060468B /* PathKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +511,7 @@
 		OBJ_108 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -523,6 +529,7 @@
 		OBJ_109 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -626,6 +633,8 @@
 		OBJ_74 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -640,6 +649,8 @@
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 				TARGET_NAME = PathKit;
 			};
 			name = Debug;
@@ -647,6 +658,8 @@
 		OBJ_75 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
 				ENABLE_TESTABILITY = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -661,6 +674,7 @@
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
 				TARGET_NAME = PathKit;
 			};
 			name = Release;
